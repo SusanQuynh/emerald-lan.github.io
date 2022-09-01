@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #D3E1F7;
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #6B7992;
+    font-size: 1rem;
+}
+
+#container {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+
+    background-color: #E5EEFD;
+    box-shadow: 2px 2px 4px rgba(163, 181, 201, 0.1), 4px 4px 30px rgba(111, 140, 176, 0.2);
+    border-radius: 14px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#feature {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.btn.switch-mode, .btn.music {
+    width: fit-content;
+    margin: 0;
+}
+
+#avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 200px;
+    height: 200px;
+
+    border-radius: 50%;
+    background: #E5EEFD;
+    box-shadow: 2px 2px 4px rgba(114, 142, 171, 0.1), -6px -6px 20px #FFFFFF, 4px 4px 20px rgba(111, 140, 176, 0.41);
+}
+
+#avatar img {
+    width: 80%;
+    height: 80%;
+    border-radius: 200px;
+}
+
+#basic-info {
+    margin: 20px auto 30px auto;
+    padding: 0 20px;
+}
+
+#basic-info p {
+    line-height: 1.5;
+    margin-top: 7px;
+}
+
+#more-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.btn {
+    font-size: 1rem;
+    color: #6B7992;
+
+    background: #E5EEFD;
+    box-shadow: 2px 2px 4px rgba(114, 142, 171, 0.1), -6px -6px 20px #FFFFFF, 4px 4px 20px rgba(111, 140, 176, 0.41);
+    border-radius: 14px;
+
+    margin: 10px auto;
+    border: none;
+    padding: 15px;
+    width: 70%;
+}
+
+.btn:hover {
+    color: #524FFF;
+    background: #E5EEFD;
+    box-shadow: inset -4px -4px 9px rgba(255, 255, 255, 0.88), inset 4px 4px 14px #C1D5EE;
+    border-radius: 14px;
+    /* background: #524FFF;
+    box-shadow: 2px 2px 4px rgba(114, 142, 171, 0.1), -6px -6px 20px #FFFFFF, 4px 4px 20px rgba(111, 140, 176, 0.41);
+    border-radius: 10px; */
+}
+
+.btn span {
+    margin-left: 5px;
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 546px) {
+    body {
+        background-color: #E5EEFD;
+        overflow-x: hidden;
+    }
+
+    #container {
+        box-shadow: none;
+    }
+}
