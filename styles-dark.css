@@ -7,7 +7,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-color: #D3E1F7;
+    background-color: #24272C;
 
     display: flex;
     flex-wrap: nowrap;
@@ -15,7 +15,7 @@ body {
 
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    color: #6B7992;
+    color: #b3b3b3;
     font-size: 1rem;
 }
 
@@ -26,8 +26,8 @@ body {
     padding: 30px;
     flex-direction: column;
 
-    background-color: #E5EEFD;
-    box-shadow: 2px 2px 4px rgba(163, 181, 201, 0.1), 4px 4px 30px rgba(111, 140, 176, 0.2);
+    background: #24272C;
+    box-shadow: -3px -3px 15px rgb(255 255 255 / 5%), 10px 10px 20px rgb(0 0 0 / 25%);
     border-radius: 14px;
 
     align-items: center;
@@ -47,7 +47,7 @@ body {
 }
 
 .btn.music.on {
-    color: #524FFF;
+    color: #83A3FF;
 }
 
 #avatar {
@@ -59,8 +59,8 @@ body {
     height: 200px;
 
     border-radius: 50%;
-    background: #E5EEFD;
-    box-shadow: 2px 2px 4px rgba(114, 142, 171, 0.1), -6px -6px 20px #FFFFFF, 4px 4px 20px rgba(111, 140, 176, 0.41);
+    background: #24272C;
+    box-shadow: -3px -3px 15px rgb(255 255 255 / 5%), 10px 10px 20px rgb(0 0 0 / 25%);
 }
 
 #avatar img {
@@ -77,7 +77,7 @@ body {
 #basic-info p {
     line-height: 1.5;
     margin-top: 7px;
-    color: #9FAEC4;
+    color: #7F8493;
 }
 
 #more-info {
@@ -88,10 +88,10 @@ body {
 
 .btn {
     font-size: 1rem;
-    color: #6B7992;
+    color: #b3b3b3;
 
-    background: #E5EEFD;
-    box-shadow: 2px 2px 4px rgba(114, 142, 171, 0.1), -6px -6px 20px #FFFFFF, 4px 4px 20px rgba(111, 140, 176, 0.41);
+    background: #24272C;
+    box-shadow: -3px -3px 15px rgb(255 255 255 / 5%), 10px 10px 20px rgb(0 0 0 / 25%);
     border-radius: 14px;
 
     margin: 10px auto;
@@ -101,9 +101,9 @@ body {
 }
 
 .btn:hover {
-    color: #524FFF;
-    background: #E5EEFD;
-    box-shadow: inset -4px -4px 9px rgba(255, 255, 255, 0.88), inset 4px 4px 14px #C1D5EE;
+    color: #83A3FF;
+    background: #24272C;
+    box-shadow: inset -6px -6px 12px rgb(255 255 255 / 4%), inset 6px 6px 12px rgb(0 0 0 / 25%);
     border-radius: 14px;
     cursor: pointer;
 }
@@ -115,7 +115,7 @@ body {
 /* For mobile phones: */
 @media only screen and (max-width: 546px) {
     body {
-        background-color: #E5EEFD;
+        background-color: #24272C;
         overflow-x: hidden;
     }
 

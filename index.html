@@ -5,43 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nguyễn Thị Thanh Lan</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
 </head>
 <body>
+    <audio src="assets/mp3/your-lie-in-april.mp3" loop="loop" id="audio"></audio>
     <div id="container">
         <div id="feature">
-            <button class="btn music">
+            <button class="btn music" onclick="playMusic()">
                 <i class="fa-solid fa-music"></i>
             </button>
-            <button class="btn switch-mode">
-                <i class="fa-solid fa-sun"></i>
+            <button class="btn switch-mode" onclick="switchMode()">
+                <i class="fa-solid fa-moon fa-sun"></i>
             </button>
         </div>
         <div id="avatar">
-            <img src="img/nttl.jpg" alt="avatar">
+            <img src="assets/img/nttl.jpg" alt="avatar">
         </div>
         <div id="basic-info">
             <h2>Nguyen Thi Thanh Lan</h2>
             <p>Sophomore at University of Information Technology - VNUHCM</p>
         </div>
         <div id="more-info">
-            <button class="btn">
+            <button class="btn" onclick="location.href='https://www.facebook.com/nttlnn'" type="button">
                 <i class="fa-brands fa-facebook"></i>
                 <span>Facebook</span>
             </button>
-            <button class="btn">
+            <button class="btn" onclick="location.href='https://www.instagram.com/ntt.lnn/'" type="button">
                 <i class="fa-brands fa-instagram"></i>
                 <span>Instagram</span>
             </button>
-            <button class="btn">
+            <button class="btn" onclick="location.href='https://github.com/emerald-lan'" type="button">
                 <i class="fa-brands fa-github-alt"></i>
                 <span>Github</span>
             </button>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
